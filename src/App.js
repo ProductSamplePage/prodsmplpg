@@ -1,21 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import haks from "./haks-plain.jpeg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={haks} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <code>
+            Different product landing page for all type of business according to
+            analyzed business requirement
+          </code>
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://hakstime.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Check Our Websites
         </a>
       </header>
     </div>
